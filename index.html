@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- 日本語サイトであることの宣言 -->
+<html lang="ja">
+<head>
+  <!-- 文字コードはutf-8を指定 -->
+  <meta charset="UTF-8">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/ fb# prefix属性: http://ogp.me/ns/ prefix属性#">
+    <meta property="og:url" content=" ページの URL" />
+    <meta property="og:type" content=" ページの種類" />
+    <meta property="og:title" content=" ページの タイトル" />
+    <!-- ディスクリプションはサイトの説明文。 -->
+    <meta name="description" content="サイトの説明の文章">
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:image" content=" サムネイル画像の URL" />
+    <!-- スマホやタブレットで表示をするビューポートの記述 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style CSS -->
+    <link href="/CSS/style.css" rel="stylesheet">
+    <title>My Vue.js</title>
+  </head>
+<body>
+
+
+  <div id="app">
+    <h1>My ToDos</h1>
+    <ul>
+      <li v-for="todo in todos">{{todo}}</li>
+    </ul>
+    <form>
+      <input type="text">
+      <input type="submit" value="add">
+    </form>
+  </div>
+
+  <!-- 本番バージョン、サイズと速度のために最適化されています -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

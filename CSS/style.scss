@@ -1,30 +1,37 @@
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-body{
+body {
   font-size: 16px;
   font-family: serif;
 }
-.container{
+.container {
   width: 300px;
   margin: auto;
 }
 
 #app h1 {
-font-style: 16px;
-border-bottom: 1px solid #ddd;
-padding: 16px 0;
+  font-style: 16px;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
 }
 #app li {
   line-height: 1.5;
-
 }
-#app input[type="text"]{
+#app input[type="text"] {
   padding: 2px;
 }
 
-.command{
+.command {
   font-style: 12px;
   cursor: pointer;
   color: blue;
+}
+#app ul {
+  padding: 0;
+  list-style: none;
+}
+#app li > span.done {
+  text-decoration: line-through;
+  color: #bbb;
 }

@@ -26,4 +26,10 @@ body {
 #app input[type="text"] {
   padding: 2px;
 }
+
+.command {
+  font-style: 12px;
+  cursor: pointer;
+  color: blue;
+}
 /*# sourceMappingURL=style.css.map */
